@@ -25,7 +25,12 @@ To get started with the project, follow these steps:
 ## Configuration
 
 - Replace the Google Sheets link with your own link for the recipients' data in `main.py` (line 13).
-- Set up environment variables for your email credentials. Copy `.env.example` to `.env` and fill in the required details.
+- Set up environment variables for your email credentials. Copy `.env.example` to `.env` and fill in the required details. Enter your email ID and password in the `.env` file.
+
+   ```plaintext
+   EMAIL_ID=your_email@google.com
+   EMAIL_PASSWORD=your_email_password
+
 
 ## Usage
 
